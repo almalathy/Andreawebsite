@@ -8,10 +8,12 @@ import { TemplateLayoutComponent } from './layout/template-layout/template-layou
 import { LayoutModule } from './layout/layout.module';
 import {HttpClientModule} from "@angular/common/http";
 
+
 @NgModule({
   declarations: [
     AppComponent,
     TemplateLayoutComponent
+    
     
   ],
   imports: [

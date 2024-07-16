@@ -1,17 +1,44 @@
-// ul{
-    
-//     text-decoration: none;
-//     color: #21292B !important;
-//     padding: 15px 0;
-//     font-size: 21px;
-//     line-height: 1.2em;
-//     font-family: 'Comme - regular', Helvetica, Arial, Lucida, sans-serif;
-  
-// }
-.text1{
-    font-size: 14px;
-    font-family: 'Comme - regular', Helvetica, Arial, Lucida, sans-serif;   
+footer {
+    background-color: #dbdad7 !important;
+
+    font-size: 18px;
+    font-family: 'Comme - regular', Helvetica, Arial, Lucida, sans-serif;
+    // text-align: center;
+    padding: 20px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
 }
-.text2{
-    color: #666;
+
+.aa {
+    color: #21292B !important;
+    text-decoration: none;
+    font-size: 18px;
+    font-size: 18px;
+    font-family: 'Comme - regular', Helvetica, Arial, Lucida, sans-serif;
+}
+
+
+
+.fa-instagram {
+    background: #77588a;
+    color: white;
+
+}
+
+
+.fa {
+    line-height: 30px;
+    display: inline-block;
+    color: #fff;
+    font-size: 103%;
+    box-sizing: border-box;
+    //border: 2px solid;
+    text-decoration: none;
+}
+
+.fa-facebook {
+    background: #358076;
+    color: white;
 }
