@@ -73,6 +73,76 @@ const routes: Routes = [
       },
     ],
   },
+  {
+    path: '',
+    component: TemplateLayoutComponent,
+    children: [
+      { path: '', pathMatch: 'full', redirectTo: '/cookies' },
+      {
+        path: 'cookies',
+        loadChildren: () =>
+          import('./subsource/cookies/cookies.module').then(
+            (m) => m.CookiesModule
+          ),
+      },
+    ],
+  },
+  {
+    path: '',
+    component: TemplateLayoutComponent,
+    children: [
+      { path: '', pathMatch: 'full', redirectTo: '/kontak' },
+      {
+        path: 'kontak',
+        loadChildren: () =>
+          import('./subsource/kontak/kontak.module').then(
+            (m) => m.KontakModule
+          ),
+      },
+    ],
+  },
+  {
+    path: '',
+    component: TemplateLayoutComponent,
+    children: [
+      { path: '', pathMatch: 'full', redirectTo: '/minikurs' },
+      {
+        path: 'minikurs',
+        loadChildren: () =>
+          import('./subsource/minikurs/minikurs.module').then(
+            (m) => m.MinikursModule
+          ),
+      },
+    ],
+  },
+  {
+    path: '',
+    component: TemplateLayoutComponent,
+    children: [
+      { path: '', pathMatch: 'full', redirectTo: '/ochrona' },
+      {
+        path: 'ochrona',
+        loadChildren: () =>
+          import('./subsource/ochrona/ochrona.module').then(
+            (m) => m.OchronaModule
+          ),
+      },
+    ],
+  },
+  {
+    path: '',
+    component: TemplateLayoutComponent,
+    children: [
+      { path: '', pathMatch: 'full', redirectTo: '/zasady' },
+      {
+        path: 'zasady',
+        loadChildren: () =>
+          import('./subsource/zasady/zasady.module').then(
+            (m) => m.ZasadyModule
+          ),
+      },
+    ],
+  },
   
 ];
 
